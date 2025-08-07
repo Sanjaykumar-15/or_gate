@@ -1,4 +1,4 @@
-tmodule tb_or;
+module tb_or;
     reg a, b;
     wire y; 
     or_gate uut (
@@ -30,4 +30,5 @@ tmodule tb_or;
 
         $finish; 
     end
+
 endmodule
